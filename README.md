@@ -4,8 +4,6 @@ Three memory allocators built from scratch against Zig's `std.mem.Allocator`
 interface, each one adding a capability the previous one lacks. Written to
 understand what a language runtime is actually doing when it hands you memory.
 
-Coursework for IFT2035 (Programming Languages) at Université de Montréal, in a
-pair with Mohammed Kamal Skhy.
 
 ## The three allocators
 
@@ -98,10 +96,3 @@ zig test 3-recycle.zig
 ```
 
 Built against Zig 0.15.2.
-
-## Attribution
-
-Written with Mohammed Kamal Skhy. Sources consulted are listed in the header
-comment of each file: the Zig standard library documentation and source, the
-ziggit.dev allocator guide, course notes, and ChatGPT for clarification on
-alignment rules and edge cases.
